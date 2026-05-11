@@ -782,7 +782,7 @@
             i: '<circle cx="12" cy="12" r="3"/><path d="M12 2a3 3 0 0 1 3 3v4a3 3 0 0 1-6 0V5a3 3 0 0 1 3-3zM12 22a3 3 0 0 1-3-3v-4a3 3 0 0 1 6 0v4a3 3 0 0 1-3 3z"/>'
         }, {
             t: 'Vì những đêm thức trắng',
-            d: 'Vì những lần mẹ phải thức trắng để đi chợ đem, những lần phải dậy sớm để chuẩn bị mở hàng để nuôi nấng cả gia đình',
+            d: 'Vì những lần mẹ phải thức trắng để đi chợ đêm, những lần phải dậy sớm để chuẩn bị mở hàng để nuôi nấng cả gia đình',
             i: '<polygon points="12 2 15 9 22 9 17 14 19 21 12 17 5 21 7 14 2 9 9 9 12 2"/>'
         }, {
             t: 'Vì niềm tin nơi con',
@@ -843,7 +843,7 @@
         const playBtn = document.getElementById('playBtn');
         const muteBtn = document.getElementById('muteBtn');
         audio.volume = 0.4;
-        let playing = True,
+        let playing = false,
             muted = false;
         playBtn.onclick = () => {
             if (playing) {
